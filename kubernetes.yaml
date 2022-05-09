@@ -20,7 +20,7 @@ items:
         spec:
           containers:
             - name: api
-              image: dockerchakri/chuck_norris:latest
+              image: dockerchakri/chuck_norris
               ports:
                 - containerPort: 8000
 
