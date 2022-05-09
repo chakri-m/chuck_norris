@@ -1,7 +1,7 @@
 require('uWebSockets.js').App()
 .any('/', (res, req) => {
     res.end(
-        'Hello Bruce Lee!!!\n' +
+        'Hello Bruce Leee!!!\n' +
         '                                          MMMMMMMMMMM\n' +
         '                                       MMMMMMMMMMMMMMMMM\n' +
         '                                   NMMMMMMMMMMMMMMMMMMMMMMMM\n' +
