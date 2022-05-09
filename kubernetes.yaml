@@ -42,7 +42,7 @@ items:
       name: api-ingress
     spec:
       rules:
-        - host: 134.209.200.220
+        - host: http://104.248.85.145
           http:
             paths:
               - path: /
