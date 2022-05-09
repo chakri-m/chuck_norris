@@ -20,7 +20,7 @@ items:
         spec:
           containers:
             - name: api
-              image: minvar/sample-api
+              image: dockerchakri/chuck_norris
               ports:
                 - containerPort: 8000
 
@@ -42,7 +42,7 @@ items:
       name: api-ingress
     spec:
       rules:
-        - host: api.varkalys.com
+        - host: 134.209.200.220
           http:
             paths:
               - path: /
