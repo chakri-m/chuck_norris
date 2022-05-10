@@ -8,7 +8,7 @@ items:
       labels:
         app: api
     spec:
-      replicas: 3
+      replicas: 1
       selector:
         matchLabels:
           app: api
@@ -42,7 +42,7 @@ items:
       name: api-ingress
     spec:
       rules:
-        - host: chuck.default.104.248.85.145.xip.io
+        - host: api.mo.com
           http:
             paths:
               - path: /
