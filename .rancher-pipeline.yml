@@ -5,10 +5,10 @@ stages:
       dockerfilePath: ./Dockerfile
       buildContext: .
       tag: dockerchakri/chuck_norris
-      pushRemote: true
       registry: index.docker.io
 - name: Deploy
   steps:
   - applyYamlConfig:
       path: ./kubernetes.yaml
+branch: {}
 notification: {}
